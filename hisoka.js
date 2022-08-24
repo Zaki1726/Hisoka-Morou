@@ -2777,6 +2777,25 @@ let capt = `⭔ Title: ${judul}
                 }
             }
             break
+            case 'tts':
+				    if (args.length < 1) return hisoka.sendMessage(from, 'Diperlukan kode bahasa kak!!', text, {quoted: mek})
+					const gtts = require('./lib/gtts')(args[0])
+					if (args.length < 2) return hisoka.sendMessage(from, 'Mana teks yang mau di jadiin suara? suara setan kah?', text, {quoted: mek})
+					dtt = body.slice(8)
+					ranm = getRandom('.mp3')
+					rano = getRandom('.ogg')
+					dtt.length > 500
+					? freply('Textnya kebanyakan cok')
+					: gtts.save(ranm, dtt, function() {
+						exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
+							fs.unlinkSync(ranm)
+							buffer = fs.readFileSync(rano)
+							if (err) return freply(ind.stikga())
+							hisoka.sendMessage(from, buffer, audio, {quoted: mek, ptt:true})
+							fs.unlinkSync(rano)
+						})
+					})
+					break
             case 'list': case 'menu': case 'help': case '?': {
                 anu = `┌──⭓ *Group Menu*
 │
@@ -3102,12 +3121,12 @@ let capt = `⭔ Title: ${judul}
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    url: 'https://telegra.ph/file/4aa26cf677108b780109b.png'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '6285817964582'
                                 }
                             }, {
                                 quickReplyButton: {
