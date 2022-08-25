@@ -1943,53 +1943,38 @@ break
             break
             //baru?
             case 'dosa1': 
-if (!isPremier)return reply(mess.premier)
-if (isBanned)return sticBanned(from)
 qute = fs.readFileSync('./gambar/fake.jpg') 
 hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/h2nygxbyb6n9cyo/VID-20210107-WA1468.mp4/file' })
 break
 case 'dosa2':
-if (!isPremier)return reply(mess.premier)
-if (isBanned)return sticBanned(from)
 qute = fs.readFileSync('./gambar/fake.jpg') 
 hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/pk8hozohzdc076c/VID-20210107-WA1466.mp4/file' })
 break
-case 'dosa3':	
-if (!isPremier)return reply(mess.premier)
-if (isBanned)return sticBanned(from)
+case 'dosa3':
 qute = fs.readFileSync('./gambar/fake.jpg') 
 hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/112q3u286tnvzjo/VID-20210107-WA1467.3gp/file' }) 
 break
 case 'dosa4':	
-if (!isPremier)return reply(mess.premier)
-if (isBanned)return sticBanned(from)
 qute = fs.readFileSync('./gambar/fake.jpg') 
 hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/arpphhxsv94ak0r/VID-20210107-WA1462.mp4/file' })
 break
 case 'dosa5':	
-if (!isPremier)return reply(mess.premier)
-if (isBanned)return sticBanned(from)
 qute = fs.readFileSync('./gambar/fake.jpg') 
 hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/us3f4j62emftbrf/VID-20210107-WA1463.mp4/file' })
 break
 case 'dosa6':	
-if (!isPremier)return reply(mess.premier)
-if (isBanned)return sticBanned(from)
 qute = fs.readFileSync('./gambar/fake.jpg') 
 hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/v4033tkl16hgf2b/VID-20210107-WA1459.mp4/file' })
 break
 case 'dosa7':
-if (!isPremier)return reply(mess.premier)
-if (isBanned)return sticBanned(from)
 qute = fs.readFileSync('./gambar/fake.jpg') 
 hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/3scnim6d1x4b8ie/VID-20210107-WA1461.mp4/file' })
 break
 case 'dosa8':	
-if (!isPremier)return reply(mess.premier)
-if (isBanned)return sticBanned(from)
 qute = fs.readFileSync('./gambar/fake.jpg') 
 hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/dx9tklonu0eq36w/VID-20210107-WA1464.mp4/file' })
 break
+
             //baru?
             case 'sifat': case 'karakter': {
                 if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
@@ -3171,7 +3156,7 @@ let capt = `⭔ Title: ${judul}
 │
 └───────⭓
 ┌──⭓ *18+*
-│⭔ ${prefix}dosa1/6
+│⭔ ${prefix}dosa1/8
 └───────⭓
 `
                 let btn = [{
