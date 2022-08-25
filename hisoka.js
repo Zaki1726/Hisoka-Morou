@@ -1942,27 +1942,7 @@ break
             }
             break
             //baru?
-case 'dosa1'
-reply('SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/pk8hozohzdc076c/VID-20210107-WA1466.mp4/file')
-break
-case 'dosa2'
-reply('SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/112q3u286tnvzjo/VID-20210107-WA1467.3gp/file')
-break
-case 'dosa3'
-reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/arpphhxsv94ak0r/VID-20210107-WA1462.mp4/file')
-break
-case 'dosa4'
-reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/us3f4j62emftbrf/VID-20210107-WA1463.mp4/file')
-break
-case 'dosa5'
-reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/v4033tkl16hgf2b/VID-20210107-WA1459.mp4/file')
-break
-case 'dosa6'
-reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/3scnim6d1x4b8ie/VID-20210107-WA1461.mp4/file')
-break
-case 'dosa7'
-reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/dx9tklonu0eq36w/VID-20210107-WA1464.mp4/file')
-break
+
             //baru?
             case 'sifat': case 'karakter': {
                 if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
@@ -3144,7 +3124,7 @@ let capt = `⭔ Title: ${judul}
 │
 └───────⭓
 ┌──⭓ *18+*
-│⭔ ${prefix}dosa1/8
+│⭔ ${prefix}
 └───────⭓
 `
                 let btn = [{
