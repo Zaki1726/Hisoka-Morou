@@ -1942,7 +1942,7 @@ break
             }
             break
             //baru?
-            case 'dosa1'
+case 'dosa1'
 reply('SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/h2nygxbyb6n9cyo/VID-20210107-WA1468.mp4/file')
 break
 case 'dosa2'
