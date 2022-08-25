@@ -541,7 +541,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : 6281615075793 (Link Aja)\nSaweria : https://saweria.co/DikaArdnt\nPaypal : https://www.paypal.me/Cakhaho\n\n Dont Forget Donate')
+                m.reply('Base Ori : https://github.com/DikaArdnt/Hisoka-Morou\n\n Bot Ini Masih Privasi')
             }
             break
             case 'chat': {
@@ -1943,38 +1943,28 @@ break
             break
             //baru?
             case 'dosa1': 
-qute = { url: 'https://telegra.ph/file/cb7371aa27942b81a3f61.jpg' }
-hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/h2nygxbyb6n9cyo/VID-20210107-WA1468.mp4/file' })
+reply('SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/h2nygxbyb6n9cyo/VID-20210107-WA1468.mp4/file')
 break
-case 'dosa2':
-qute = { url: 'https://telegra.ph/file/cb7371aa27942b81a3f61.jpg' }
-hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/pk8hozohzdc076c/VID-20210107-WA1466.mp4/file' })
+case 'dosa2'
+reply('SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/pk8hozohzdc076c/VID-20210107-WA1466.mp4/file')
+case 'dosa3'
+reply('SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/112q3u286tnvzjo/VID-20210107-WA1467.3gp/file')
 break
-case 'dosa3':
-qute = { url: 'https://telegra.ph/file/cb7371aa27942b81a3f61.jpg' }
-hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/112q3u286tnvzjo/VID-20210107-WA1467.3gp/file' }) 
+case 'dosa4'
+reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/arpphhxsv94ak0r/VID-20210107-WA1462.mp4/file')
 break
-case 'dosa4':	
-qute = { url: 'https://telegra.ph/file/cb7371aa27942b81a3f61.jpg' }
-hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/arpphhxsv94ak0r/VID-20210107-WA1462.mp4/file' })
+case 'dosa5'
+reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/us3f4j62emftbrf/VID-20210107-WA1463.mp4/file')
 break
-case 'dosa5':	
-qute = { url: 'https://telegra.ph/file/cb7371aa27942b81a3f61.jpg' }
-hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/us3f4j62emftbrf/VID-20210107-WA1463.mp4/file' })
+case 'dosa6'
+reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/v4033tkl16hgf2b/VID-20210107-WA1459.mp4/file')
 break
-case 'dosa6':	
-qute = { url: 'https://telegra.ph/file/cb7371aa27942b81a3f61.jpg' }
-hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/v4033tkl16hgf2b/VID-20210107-WA1459.mp4/file' })
+case 'dosa7'
+reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/3scnim6d1x4b8ie/VID-20210107-WA1461.mp4/file')
 break
-case 'dosa7':
-qute = { url: 'https://telegra.ph/file/cb7371aa27942b81a3f61.jpg' }
-hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/3scnim6d1x4b8ie/VID-20210107-WA1461.mp4/file' })
+case 'dosa8'
+reply('*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/dx9tklonu0eq36w/VID-20210107-WA1464.mp4/file')
 break
-case 'dosa8':	
-qute = { url: 'https://telegra.ph/file/cb7371aa27942b81a3f61.jpg' }
-hisoka.sendMessage(from, qute, image, { quoted: mek, caption: '*SEMOGA DI BERI HIDAYAH*\nLink Download \n\nhttps://www.mediafire.com/file/dx9tklonu0eq36w/VID-20210107-WA1464.mp4/file' })
-break
-
             //baru?
             case 'sifat': case 'karakter': {
                 if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
